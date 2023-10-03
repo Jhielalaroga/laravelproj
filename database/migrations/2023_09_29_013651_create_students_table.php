@@ -17,7 +17,7 @@ return new class extends Migration
             $table->string('last_name');
             $table->string('middle_name')->nullable();
             $table->date('birth_date');
-            $table->string('course');
+            $table->integer('course');
             $table->integer('year');
             $table->char('section', 1);
             $table->string('email')->unique();
